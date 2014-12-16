@@ -1,0 +1,13 @@
+body{
+	background-image: url("../images/background.jpg");
+	background-size: 100%
+}
+li{
+	display: inline;
+}
+h1{
+	font-family: 'PT Sans', sans-serif;
+}
+p{
+	color:gray;
+}
