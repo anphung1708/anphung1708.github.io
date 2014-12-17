@@ -1,13 +1,48 @@
 body{
 	background-image: url("../images/background.jpg");
 	background-size: 100%
+}	
+.text{
+	background-color:#f2ecec;
+	box-shadow: 10px 10px 5px #888;
+	opacity:0.7;
+  	margin-left:120px;
+  	margin-top:100px;
+  	padding:20px;
+  	padding-left:40px;
+  	padding-top:3px;
+  	width:250px;
+	font-size:20px;
 }
 li{
 	display: inline;
+	font-family: font-family: 'Poiret One', cursive;
+	text-shadow: black;
+}
+ul{
+	position: fixed;
+	margin-top: 0px;
+	top:5px;
+	right:200px;
+	font-size:30px;
+	font-weight: bold;
+}
+a.nav{
+	text-decoration:none;
+	color: #f17070;
+	font-family: 'Poiret One', cursive;
+	text-shadow: 2px 1px #ffffff;
 }
 h1{
-	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	front-size: 120pt;
+	front-weight:bold;
+	color: black;
+	text-shadow:4px 2px #f17070;
 }
 p{
 	color:gray;
+	font-family: 'Poiret One', cursive;
+	font-size: 12pt;
 }
