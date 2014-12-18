@@ -41,6 +41,9 @@ h1{
 	color: black;
 	text-shadow:4px 2px #f17070;
 }
+.p1{
+	text-indent: 20px;
+}
 p{
 	color:#777474;
 	font-family: 'Poiret One', cursive;
