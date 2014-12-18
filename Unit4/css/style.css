@@ -18,12 +18,13 @@ li{
 	display: inline;
 	font-family: font-family: 'Poiret One', cursive;
 	text-shadow: black;
+	margin-right: 20px;
 }
 ul{
 	position: fixed;
 	margin-top: 0px;
 	top:5px;
-	right:200px;
+	right: 20px;
 	font-size:30px;
 	font-weight: bold;
 }
@@ -34,6 +35,8 @@ a.nav{
 	text-shadow: 2px 1px #ffffff;
 }
 h1{
+	text-transform: uppercase;
+	letter-spacing: 5px;
 	text-align: center;
 	font-family: 'Pacifico', cursive;
 	front-size: 120pt;
