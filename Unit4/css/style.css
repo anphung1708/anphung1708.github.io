@@ -2,17 +2,18 @@ body{
 	background-image: url("../images/background.jpg");
 	background-size: 100%
 }	
-.text{
-	background-color:#f2ecec;
-	box-shadow: 10px 10px 5px #888;
-	opacity:0.7;
-  	margin-left:120px;
-  	margin-top:100px;
-  	padding:20px;
-  	padding-left:40px;
-  	padding-top:3px;
-  	width:250px;
-	font-size:20px;
+img{
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+.nav a:hover {
+  color:#ffffff;
+  
+}
+.nav a:active {
+  color:#f17070;
+  
 }
 li{
 	display: inline;
@@ -28,19 +29,24 @@ ul{
 	font-size:30px;
 	font-weight: bold;
 }
-a.nav{
-	text-decoration:none;
+.text{
+	position: absolute;
+	top: 80px;
+	left:60px;
+	font-size:20px;
+}
+a{
+	text-decoration: none;
 	color: #f17070;
 	font-family: 'Poiret One', cursive;
 	text-shadow: 2px 1px #ffffff;
 }
 h1{
+	padding-left: 90px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	text-align: center;
 	font-family: 'Pacifico', cursive;
-	front-size: 120pt;
-	front-weight:bold;
+	font-size: 30pt;
 	color: black;
 	text-shadow:4px 2px #f17070;
 }
