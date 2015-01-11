@@ -1,0 +1,61 @@
+body{
+	margin: 0px;
+}
+.logo{
+	width: 35%;
+}
+a:hover{
+	color: gray;
+}
+.home_button{
+	color: black;
+	font-size: 20px;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 60px;
+	text-decoration: none;
+}
+.nav2{
+	color: white;
+	font-size: 20px;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 60px;
+	text-decoration: none;
+}
+a{
+	margin-left: 25px;
+}
+nav{
+	background: -webkit-linear-gradient(left, red , gray);
+	position: relative;
+	padding: 10px;
+}
+.image{
+	position: absolute;
+	bottom: 51px;
+	width: 40%;
+}
+.intro{
+	font-family: 'Playfair Display', serif;
+	position: absolute;
+	bottom:250px;
+	right: 150px;
+	text-align:center;
+}
+.welcome{
+	font-size: 40px;
+	font-weight: bold;
+}
+.content{
+	font-size: 20px;
+}
+footer{
+ 	border:1px solid #bbbbbb;
+ 	position: fixed;
+  	bottom:0px;
+  	right:0px;
+  	width: 100%;
+}
+.copy{
+	float: right;
+	margin-right: 20px;
+}

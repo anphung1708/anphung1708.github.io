@@ -8,11 +8,11 @@ img{
 	height: 500px;
 }
 .nav a:hover {
-  color:#ffffff;
+  color:#ff0202;
   
 }
 .nav a:active {
-  color:#f17070;
+  color:#ff0202;
   
 }
 li{
@@ -37,9 +37,9 @@ ul{
 }
 a{
 	text-decoration: none;
-	color: #f17070;
+	color: #024fff;
 	font-family: 'Poiret One', cursive;
-	text-shadow: 2px 1px #ffffff;
+	text-shadow: 2px 1px #024fff;
 }
 h1{
 	padding-left: 90px;
