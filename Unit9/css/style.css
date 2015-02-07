@@ -1,0 +1,114 @@
+body{
+	margin: 0px;
+	font-size:20px;
+	
+}
+.logo{
+	width: 10%;
+}
+a:hover{
+	color: gray;
+}
+.home_button{
+	color: black;
+	font-size: 1em;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 3em;
+	text-decoration: none;
+}
+.nav2{
+	color: white;
+	font-size: 1em;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 3em;
+	text-decoration: none;
+}
+a{
+	margin-left: 0.3em;
+}
+nav{
+	background: -webkit-linear-gradient(left, red , gray);
+	background: linear-gradient(to right, red , gray);
+	padding: 0.25em;
+}
+.image{
+	position: absolute;
+	bottom: 60px;
+	width: 40%;
+}
+.intro{
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	position: absolute;
+	bottom: 250px;
+	right: 150px;
+	text-align:center;
+}
+.welcome{
+	font-size: 2.2em;
+	font-weight: bold;
+}
+.content{
+	font-size: 1.2em;
+}
+footer{
+ 	border:1px solid #bbbbbb;
+ 	position: fixed;
+  	bottom:0px;
+  	right:0px;
+  	width: 100%;
+}
+.copy{
+	float: right;
+	margin-right: 20px;
+}
+
+
+@media screen and (max-width: 400px){
+	body{
+		font-size: 14px;
+	}
+	.logo{
+		width: 40%;
+		margin-left: 30%;
+
+	}
+	
+	.home_button{
+	color: white;
+	font-size: 1.2em;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 0.02em;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+	.nav2{
+	color: white;
+	font-size: 1.2em;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 0.05em;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+	nav{
+	padding: 0.5em;
+}
+	.content{
+	margin-left: 25%;
+
+}
+	.intro{
+	position: relative;
+	bottom: 0.1em;
+	right: 3em;
+	text-align:center;
+
+}
+	.image{
+	position: absolute;
+	bottom: 2.6em;
+	width: 50%;
+}
+}

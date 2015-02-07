@@ -26,37 +26,43 @@ a{
 }
 nav{
 	background: -webkit-linear-gradient(left, red , gray);
-	background: linear-gradient(to right, red , gray);
 	position: relative;
 	padding: 10px;
 }
-.image{
-	position: absolute;
-	bottom: 51px;
-	width: 40%;
+header{
+	margin: 50px;
 }
-.intro{
-	font-family: 'Playfair Display', serif;
-	position: absolute;
-	bottom:250px;
-	right: 150px;
-	text-align:center;
+.paragraph{
+	margin: 50px;
 }
-.welcome{
-	font-size: 40px;
-	font-weight: bold;
+p{
+	text-indent: 20px;
+	color: gray;
 }
 .content{
-	font-size: 20px;
+	display:block;
+	margin: auto;
+	height:700px;
+}
+.image_1{
+	width: 30%;
+	padding: 50px;
+	float: right;
+}
+.clear{ 
+	clear: both;
+}
+.image_2{
+	width: 30%;
+	float: right;
+	padding: 50px;
 }
 footer{
  	border:1px solid #bbbbbb;
- 	position: fixed;
+ 	position: relative;
   	bottom:0px;
-  	right:0px;
   	width: 100%;
 }
-.copy{
-	float: right;
-	margin-right: 20px;
+p.copy{
+	float: left;
 }
