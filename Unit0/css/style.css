@@ -93,21 +93,4 @@ footer{
 	nav{
 	padding: 0.3em;
 }
-	.content{
-		margin-left: 30%;
-	}
-	.image{
-	position: fixed;
-	bottom:2.5em;
-	width: 40%;
-}
-	.intro{
-	font-family: 'Playfair Display', serif;
-	font-size: 1em;
-	position: fixed;
-	bottom: 12em;
-	padding-left: 30%;
-	text-align: center;
-
-}
-}
+	
