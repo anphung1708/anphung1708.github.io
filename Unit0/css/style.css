@@ -91,11 +91,11 @@ footer{
 	text-align: center;
 }
 	nav{
-	padding: 0.3em;
+	padding: 0.1em;
 }
-	.comtent{
-		position: absolute;
-		bottom:0px;
+	.content{
+		position: relative;
+		bottom:20px;
 	}
 	.intro{
 		position: relative;
