@@ -69,9 +69,7 @@ footer{
 	}
 	.logo{
 		width: 20%;
-		margin: 0 auto;
-		vertical-align: middle;
-		text-align: center;
+		margin-left: 
 
 	}
 	
@@ -111,4 +109,5 @@ footer{
 	right: 2em;
 	text-align:center;
 
+}
 }
