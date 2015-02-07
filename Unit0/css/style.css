@@ -70,7 +70,6 @@ footer{
 	.logo{
 		width: 20%;
 		margin-left: 30%
-
 	}
 	
 	.home_button{
@@ -86,28 +85,29 @@ footer{
 	color: white;
 	font-size: 1.2em;
 	font-family: 'Droid Sans', sans-serif;
-	padding: 0.05em;
+	padding: 0.03em;
 	text-decoration: none;
 	display: block;
 	text-align: center;
 }
 	nav{
-	padding: 0.5em;
+	padding: 0.3em;
 }
-	
+	.content{
+		margin-left: 30%;
+	}
 	.image{
 	position: fixed;
-	bottom:3em;
-	left: 9em;
+	bottom:2.5em;
 	width: 40%;
 }
 	.intro{
 	font-family: 'Playfair Display', serif;
 	font-size: 1em;
-	position: absolute;
-	bottom: 18em;
-	right: 2em;
-	text-align:center;
+	position: fixed;
+	bottom: 12em;
+	padding-left: 30%;
+	text-align: center;
 
 }
 }
