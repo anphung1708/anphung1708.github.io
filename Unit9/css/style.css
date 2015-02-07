@@ -107,8 +107,8 @@ footer{
 
 }
 	.image{
-	position: absolute;
-	bottom: 2.6em;
+	position: fixed;
+	bottom: 60px;
 	width: 50%;
 }
 }
