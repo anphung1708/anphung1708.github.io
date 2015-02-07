@@ -93,4 +93,17 @@ footer{
 	nav{
 	padding: 0.3em;
 }
-	
+	.comtent{
+		position: absolute;
+		bottom:0px;
+	}
+	.intro{
+		position: relative;
+		left: 2%;
+		top: 30px;
+	}
+	.image{
+		position: relative;
+		top: 60px;
+		left: 30%;
+		width: 40%;
