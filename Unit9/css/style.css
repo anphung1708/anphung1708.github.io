@@ -71,7 +71,12 @@ footer{
 		width: 20%;
 		margin-left: 30%
 	}
-	
+	/*
+	can't use main_nav to manipulate 
+	both home and the rest navigation
+	- top margin bigger than bottom
+	*/
+
 	.home_button{
 	color: white;
 	font-size: 1.2em;
@@ -81,6 +86,7 @@ footer{
 	display: block;
 	text-align: center;
 	}
+
 	.nav2{
 	color: white;
 	font-size: 1.2em;
