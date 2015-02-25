@@ -93,6 +93,11 @@ footer{
 	nav{
 	padding: 0.1em;
 	}
+
+	/* can't use
+	margin: 0 auto;
+	to center intro and image
+	*/
 	.content{
 		position: relative;
 		bottom: 20px;
